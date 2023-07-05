@@ -91,8 +91,8 @@ int stella_setting(int select)
             stella.overcurrent_limit[channel_2] = 3.0;
     
             // 하드웨어 참고
-            stella.direction[channel_1] =Not_Change;
-            stella.direction[channel_2] =Reverse_Direction;
+            stella.direction[channel_1] =Reverse_Direction;
+            stella.direction[channel_2] =Not_Change;
     
             stella.velocity_p_gain[channel_1] = 1.3;
             stella.velocity_p_gain[channel_2] = 1.3;
@@ -138,8 +138,8 @@ int stella_setting(int select)
     
             // 하드웨어 참고
     
-            stella.direction[channel_1] = Reverse_Direction;
-            stella.direction[channel_2] = Not_Change;
+            stella.direction[channel_1] = Not_Change;
+            stella.direction[channel_2] = Reverse_Direction;
     
     
             stella.velocity_p_gain[channel_1] = 0.6;
