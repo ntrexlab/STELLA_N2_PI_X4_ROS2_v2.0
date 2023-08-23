@@ -4,7 +4,7 @@ KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{seri
 
 # set the udev rule , make the AHRS's device_port be fixed by AHRS
 
-KERNEL=="ttyUSB*" ,ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60",ATTRS{serial}=="ntrex", MODE:="0777", SYMLINK+="AHRS"
+KERNEL=="ttyUSB*" ,ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60",ATTRS{serial}=="1234", MODE:="0777", SYMLINK+="AHRS"
 
 # set the udev rule , make the MotorDriver's device_port be fixed by MW
 #
